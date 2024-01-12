@@ -16,18 +16,18 @@ class ProductsNotifier extends _$ProductsNotifier {
     productsList.add(
       Products(id: productId += 1, productName: product),
     );
-   // state = productsList.toList();
+   state = productsList.toList();
   }
 
   void updateProduct({required int productId, required String productName}) {
     Products product =
         productsList.firstWhere((element) => element.id == productId);
     product.productName = productName;
-    //state = productsList.update(productId, product).toList();
+    state = productsList.update(productId, product).toList();
   }
 
   void removeProduct({required int productId}) {
     productsList.removeWhere((element) => element.id == productId);
-    //state = productsList.toList();
+    state = productsList.toList();
   }
 }
