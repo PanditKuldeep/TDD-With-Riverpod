@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tdd_with_riverpod/domain/validations.dart';
-import 'package:tdd_with_riverpod/presentation/core/presentation/widgets/snakbar.dart';
-import 'package:tdd_with_riverpod/presentation/features/products/presentation/screens/products_page.dart';
+import 'package:tdd_with_riverpod/core/presentation/widgets/snakbar.dart';
+import 'package:tdd_with_riverpod/core/validations.dart';
+import 'package:tdd_with_riverpod/features/products/presentation/pages/products_page.dart';
 
 class LoginPage extends StatelessWidget {
   late final Validator validator;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tdd_with_riverpod/domain/models/products.dart';
-import 'package:tdd_with_riverpod/presentation/core/presentation/widgets/dynamic_generic_listview.dart';
+import 'package:tdd_with_riverpod/core/presentation/widgets/dynamic_generic_listview.dart';
+import 'package:tdd_with_riverpod/features/products/domain/entities/products.dart';
 
 class ProductsComponents extends StatelessWidget {
   final List<Products> productList;

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:tdd_with_riverpod/presentation/features/products/presentation/components/products_component.dart';
-import 'package:tdd_with_riverpod/presentation/features/products/presentation/notifiers/products_notifier.dart';
+import 'package:tdd_with_riverpod/features/products/presentation/components/products_component.dart';
+import 'package:tdd_with_riverpod/features/products/presentation/notifiers/products_notifier.dart';
+
 
 class ProductsPage extends HookConsumerWidget {
   const ProductsPage({super.key});

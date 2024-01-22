@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:tdd_with_riverpod/domain/validations.dart';
+import 'package:tdd_with_riverpod/core/validations.dart';
 
 void main() {
   late Validator validator;

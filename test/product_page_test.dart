@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:tdd_with_riverpod/presentation/features/products/presentation/notifiers/products_notifier.dart';
+import 'package:tdd_with_riverpod/features/products/presentation/notifiers/products_notifier.dart';
 
 void main() {
   late ProductsNotifier productsNotifier;

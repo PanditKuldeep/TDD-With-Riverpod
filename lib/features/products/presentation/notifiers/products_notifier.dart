@@ -1,6 +1,6 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import 'package:tdd_with_riverpod/domain/models/products.dart';
-import 'package:tdd_with_riverpod/presentation/core/presentation/extensions/list_extension.dart';
+import 'package:tdd_with_riverpod/core/presentation/extensions/list_extension.dart';
+import 'package:tdd_with_riverpod/features/products/domain/entities/products.dart';
 
 part 'products_notifier.g.dart';
 
