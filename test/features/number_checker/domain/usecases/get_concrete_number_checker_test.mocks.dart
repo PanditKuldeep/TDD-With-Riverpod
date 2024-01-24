@@ -8,7 +8,7 @@ import 'dart:async' as _i4;
 import 'package:dartz/dartz.dart' as _i2;
 import 'package:mockito/mockito.dart' as _i1;
 import 'package:tdd_with_riverpod/core/error/failures.dart' as _i5;
-import 'package:tdd_with_riverpod/features/number_checker/domain/entities/number_checker.dart'
+import 'package:tdd_with_riverpod/features/number_checker/domain/entities/number_checker_entity.dart'
     as _i6;
 import 'package:tdd_with_riverpod/features/number_checker/domain/repositories/number_checker_repository.dart'
     as _i3;

@@ -2,7 +2,7 @@ import 'package:dartz/dartz.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 import 'package:tdd_with_riverpod/core/usecases/usecase.dart';
-import 'package:tdd_with_riverpod/features/number_checker/domain/entities/number_checker.dart';
+import 'package:tdd_with_riverpod/features/number_checker/domain/entities/number_checker_entity.dart';
 import 'package:tdd_with_riverpod/features/number_checker/domain/repositories/number_checker_repository.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:tdd_with_riverpod/features/number_checker/domain/usecases/get_concrete_number_checker_usecase.dart';
