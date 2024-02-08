@@ -6,7 +6,7 @@
 import 'dart:async' as _i4;
 
 import 'package:mockito/mockito.dart' as _i1;
-import 'package:tdd_with_riverpod/core/platform/network_info.dart' as _i6;
+import 'package:tdd_with_riverpod/core/network/network_info.dart' as _i6;
 import 'package:tdd_with_riverpod/features/number_checker/data/dataSources/number_checker_local_data_source.dart'
     as _i5;
 import 'package:tdd_with_riverpod/features/number_checker/data/dataSources/number_checker_remote_data_source.dart'

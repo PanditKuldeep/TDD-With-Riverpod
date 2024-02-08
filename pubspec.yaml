@@ -43,6 +43,7 @@ dependencies:
   dartz: ^0.10.1
   equatable: ^2.0.5
   mockito: ^5.4.4
+  internet_connection_checker_plus: ^2.2.0
 
 dev_dependencies:
   flutter_test:
